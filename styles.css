@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --gray-400: rgba(196, 196, 204, 1);
+  --gray-100: rgba(225, 225, 230, 1);
+  --aqua-700: rgba(2, 121, 157, 1);
+}
+
+body {
+
+  padding-top: 4rem;
+  padding-left: 7rem;
+  min-height: 100%;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("./assets/mountains-universe-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+nav a {
+  color: var(--gray-400);
+  text-decoration: none;
+  font-size: 2.4rem;
+  line-height: 2.1rem;
+}
+
+nav a:hover {
+  color: var(--gray-100);
+  font-weight: bold;
+}
+
+
+.app {
+  margin-top: 10rem;
+}
+
+.pageCenter {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.pageCenter h1 {
+  font-size: 4.8rem;
+  color: var(--gray-100);
+}
+
+.pageCenter p {
+  width: 60rem;
+
+  color: var(--gray-100);
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.pageCenter p a {
+  font-size: 2rem;
+  color: salmon;
+  font-weight: bold;
+}
+
+
+.pageCenter button {
+  padding: 1.2rem 3.2rem;
+  background: none;
+
+  border: 2px solid var(--gray-100);
+  border-radius: .5rem;
+
+  cursor: pointer;
+
+}
+
+.pageCenter button a {
+
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+}
+
+.pageCenter button:hover {
+  background: var(--gray-100);
+
+}
+
+.pageCenter button a:hover {
+  color: var(--aqua-700);
+}
+
+.page {
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  align-items: flex-start;
+
+  color: var(--gray-100);
+}
+
+.page h1 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  line-height: 6rem;
+}
+
+
+.page p {
+  width: 64rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
